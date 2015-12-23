@@ -1,0 +1,24 @@
+{
+  "name": "tsoftware/captcha",
+  "description": "A simple and fast captcha generator",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Yan Tao",
+          "email": "admin@yantao.info"
+      }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/session": "5.1.*",
+    "illuminate/support": "5.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tsoftware\\Captcha\\": "src/"
+    }
+  }
+
+
+}
